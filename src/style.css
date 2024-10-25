@@ -115,6 +115,7 @@ header #options #optReserve:hover
 
 #content .section 
 {
+    margin-top: 40px;
     margin-bottom: 100px;
 }
 
@@ -136,7 +137,7 @@ header #options #optReserve:hover
 
 #content #about.section
 {
-    margin: 0 200px 140px;
+    margin: 40px 200px 140px;
 }
 
 #content #about.section p
@@ -154,14 +155,14 @@ header #options #optReserve:hover
 
 #content #about.section img.decorativeImage.one
 {
-    top: 620px;
+    top: 100px;
     left: 5px;
 }
 
 #content #about.section img.decorativeImage.two
 {
     width: 350px;
-    top: 830px;
+    top: 310px;
     right: 6px;
 }
 
@@ -214,6 +215,11 @@ header #options #optReserve:hover
     font-size: 40px;
     position: relative;
     left: 60px;
+}
+
+#content #menu.section #items .menuItem button .material-symbols-outlined.row.rotate
+{
+    rotate: 45deg;
 }
 
 #content #booking 
